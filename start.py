@@ -7,7 +7,7 @@ import tornado.web
 from tornado.options import define, options
 from urls import urlList
 
-define("port", default=5555, help="run on the given port", type=int)
+define("port", default=1214, help="run on the given port", type=int)
 
 # Your app launch code here..
 class ALIEHApplication(tornado.web.Application):
@@ -29,6 +29,6 @@ if __name__ == '__main__':
     tornado.options.parse_command_line()
 
 
-    http_server = tornado.httpserver.HTTPServer(ALIEHApplication())
+    http_server = tornado.httpserver.HTTPServer(MedxApplication())
     http_server.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()
