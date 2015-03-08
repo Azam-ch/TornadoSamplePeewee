@@ -14,7 +14,7 @@ class AzamApplication(tornado.web.Application):
 
     def __init__(self):
         # self.db = ["Medex"]
-        handlers = urlList
+        handlers = urlListK
         settings = dict(
             debug=True,
             cookie_secret="61oETz3455545gEmGeJJFuYh7EQnp2XdTP1o/Vo=",
