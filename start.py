@@ -1,3 +1,4 @@
+#Azam
 import os.path
 import tornado.httpserver
 import tornado.ioloop
@@ -10,7 +11,7 @@ from urls import urlList
 define("port", default=1190, help="run on the given port", type=int)
 
 # Your app launch code here..
-class ALIEHApplication(tornado.web.Application):
+class Azampplication(tornado.web.Application):
 
     def __init__(self):
         # self.db = ["Medex"]
@@ -29,6 +30,6 @@ if __name__ == '__main__':
     tornado.options.parse_command_line()
 
 
-    http_server = tornado.httpserver.HTTPServer(zahraApplication())
+    http_server = tornado.httpserver.HTTPServer(Azampplication())
     http_server.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()
