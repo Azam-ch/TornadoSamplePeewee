@@ -1,5 +1,5 @@
 import tornado
-from  models import *
+from models import
 import peewee
 
 __author__ = 'mojtaba.banaie'
@@ -46,7 +46,7 @@ class CategoryNewHandler(tornado.web.RequestHandler):
 
      def post(self, *args):
 
-       catName = self.get_argument("category-name")
+       catName = self.get_argument("first-name")
        catInfo = Category.create(
            name=catName
        )

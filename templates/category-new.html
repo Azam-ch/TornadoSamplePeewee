@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><title>Poem Maker Pro</title>
+<head><title>Add auther</title>
 <link href='{{ static_url("css/bootstrap.css") }}' rel="stylesheet">
 <link href='{{ static_url("css/bootstrap-theme.css") }}' rel="stylesheet">
     <link href='{{ static_url("css/basic.css") }}' rel="stylesheet">
@@ -11,12 +11,15 @@
 <div class="row">&nbsp;</div>
 <div class="row">
     <div class="col-md-8 col-md-offset-2 ">
-        <h3 class="Yekan" style="color:#2233dd">گروه های خبری : </h3>
+        <h3 class="Yekan" style="color:#2233dd">افزودن نویسنده</h3>
           <form method="post" action="/category/new">
 
           <div class="form-group">
-            <label for="category-name" class="control-label Mitra" >نام گروه :</label>
-            <input type="text" name="category-name" id="category-name" value="" placeholder="نام گروه را وارد کنید !"      class="form-control" />
+            <label for="first-name" class="control-label Mitra" >نام نویسنده:</label>
+            <input type="text" name="first-name" id="first-name" value="" class="form-control" />
+
+            <label for="last-name" class="control-label Mitra" >نام خانوادگی:</label>
+            <input type="text" name="last-name" id="last-name" value="" class="form-control" />
 
           </div>
 

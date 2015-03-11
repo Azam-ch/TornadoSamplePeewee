@@ -8,5 +8,4 @@ urlList  = [
     (r'/category/edit/(\d+)$', CategoryEditHandler),
     (r'/category/delete/(\d+)$', CategoryDeleteHandler),
     (r'/category/new$', CategoryNewHandler)
-
 ]
