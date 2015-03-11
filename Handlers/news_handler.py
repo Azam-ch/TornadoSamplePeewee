@@ -9,25 +9,23 @@ class newsHandler(tornado.web.RequestHandler):
 class newsEditHandler(tornado.web.RequestHandler):
      def get(self, *args):
        new_id=args[0]
-       newInfo = News.select().where(News.id == new_id).get()
+       newInfo=News.select().where(News.id == new_id).get()
        self.render("news-edit.html",news=newInfo)
 
- def post(self, *args):
+     def post(self, *args):
        new_id=args[0]
        newInfo = News.select().where(News.id == new_id).get()
-       newInfo.title = self.get_argument("news-title")
-       newInfo.body  = self.get_argument("news-body")
-       newInfo.date  = self.get_argument("news-date")
-       newInfo.category  = self.get_argument("news-category")
-       newInfo.author  = self.get_argument("news-author")
-
-
+       newInfo.title=self.get_argument("news-title")
+       newInfo.body=self.get_argument("news-body")
+       newInfo.date=self.get_argument("news-date")
+       newInfo.category=self.get_argument("news-category")
+       newInfo.author=self.get_argument("news-author")
        newInfo.save()
 
 
        self.redirect("/news")
 
- class newsDeleteHandler(tornado.web.RequestHandler):
+class newsDeleteHandler(tornado.web.RequestHandler):
      def get(self, *args):
        new_id=args[0]
        newInfo = News.select().where(News.id ==new_id).get().delete_instance()

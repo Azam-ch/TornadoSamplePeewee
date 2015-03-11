@@ -1,6 +1,7 @@
 __author__ = 'mojtaba.banaie'
 from Handlers.index_handler import IndexHandler
 from Handlers.category__handler import CategoryHandler,CategoryEditHandler,CategoryDeleteHandler,CategoryNewHandler
+from Handlers.news__handler import newsHandler,newsEditHandler,newsDeleteHandler,newsNewHandler
 
 urlList  = [
     (r'/', IndexHandler),
@@ -10,7 +11,7 @@ urlList  = [
     (r'/category/new$', CategoryNewHandler),
 
     (r'/news$', newsHandler),
-    (r'/news/edit/(\d+)$', nessEditHandler),
+    (r'/news/edit/(\d+)$', newsEditHandler),
     (r'/news/delete/(\d+)$', newsDeleteHandler),
     (r'/news/new$', newsNewHandler),
 
