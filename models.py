@@ -1,6 +1,6 @@
 import peewee
 
-myDB = peewee.MySQLDatabase("newspaper", host="localhost", user="root", passwd="")
+myDB = peewee.MySQLDatabase("newspaper", host="localhost",port=3306, user="root", passwd="")
 
 class MySQLModel(peewee.Model):
     """A base model that will use our MySQL database"""

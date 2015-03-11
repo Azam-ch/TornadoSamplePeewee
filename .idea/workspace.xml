@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f6c8fd-d87a-4fc7-88b2-1e2b7a64d72e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/news-edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/news-new.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Handlers/news_handler.py" afterPath="$PROJECT_DIR$/Handlers/news_handler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models.py" afterPath="$PROJECT_DIR$/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/news-edit.html" afterPath="$PROJECT_DIR$/templates/news-edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/news-new.html" afterPath="$PROJECT_DIR$/templates/news-new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/news.html" afterPath="$PROJECT_DIR$/templates/news.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -20,10 +20,11 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Tornado$ConditionGrabber.coverage" NAME="ConditionGrabber Coverage Results" MODIFIED="1393575445675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tornado$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1426070095744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tornado$start.coverage" NAME="start Coverage Results" MODIFIED="1393498838192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tornado$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1426073157831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tornado$news_handler.coverage" NAME="news_handler Coverage Results" MODIFIED="1426072463710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Handlers" />
     <SUITE FILE_PATH="coverage/Tornado$models.coverage" NAME="models Coverage Results" MODIFIED="1426011344316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tornado$urls.coverage" NAME="urls Coverage Results" MODIFIED="1426073131208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -42,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="7" selection-start="569" selection-end="569" vertical-scroll-proportion="-9.192307" vertical-offset="67" max-vertical-offset="408">
+            <state line="5" column="55" selection-start="145" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -55,40 +56,7 @@
         <entry file="file://$PROJECT_DIR$/Handlers/category__handler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="34" column="12" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="1003">
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_handler.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Handlers/news_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="18" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1105">
-              <folding>
-                <element signature="e#30#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category-new.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/category-new.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="870" selection-end="870" vertical-scroll-proportion="-0.65384614" vertical-offset="357" max-vertical-offset="1122">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="1" selection-start="687" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="408">
-              <folding>
-                <element signature="e#30#77#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -96,18 +64,7 @@
       <file leaf-file-name="start.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="23" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="663">
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news-new.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/news-new.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="2057">
+            <state line="13" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -116,16 +73,54 @@
       <file leaf-file-name="news-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/news-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="34" selection-start="2689" selection-end="2689" vertical-scroll-proportion="-8.269231" vertical-offset="856" max-vertical-offset="1955">
+            <state line="46" column="103" selection-start="2160" selection-end="2160" vertical-scroll-proportion="0.0" vertical-offset="514" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="news_handler.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Handlers/news_handler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="6" selection-start="230" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1105">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="12" selection-start="274" selection-end="274" vertical-scroll-proportion="0.16098484" vertical-offset="0" max-vertical-offset="528">
+              <folding>
+                <element signature="e#1#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index_handler.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Handlers/index_handler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news-new.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/news-new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="108" selection-start="2021" selection-end="2021" vertical-scroll-proportion="-5.730769" vertical-offset="616" max-vertical-offset="2057">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="30" selection-start="697" selection-end="697" vertical-scroll-proportion="0.19354838" vertical-offset="229" max-vertical-offset="731">
+            <state line="12" column="43" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -134,7 +129,7 @@
       <file leaf-file-name="category-edit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/category-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="32" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-6.423077" vertical-offset="649" max-vertical-offset="1275">
+            <state line="48" column="32" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.0" vertical-offset="649" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -167,12 +162,12 @@
         <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/templates/category-new.html" />
         <option value="$PROJECT_DIR$/Handlers/category__handler.py" />
-        <option value="$PROJECT_DIR$/templates/news.html" />
-        <option value="$PROJECT_DIR$/models.py" />
-        <option value="$PROJECT_DIR$/urls.py" />
-        <option value="$PROJECT_DIR$/templates/news-new.html" />
-        <option value="$PROJECT_DIR$/templates/news-edit.html" />
         <option value="$PROJECT_DIR$/Handlers/news_handler.py" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/templates/news-edit.html" />
+        <option value="$PROJECT_DIR$/templates/news-new.html" />
+        <option value="$PROJECT_DIR$/templates/news.html" />
+        <option value="$PROJECT_DIR$/urls.py" />
       </list>
     </option>
   </component>
@@ -215,14 +210,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Tornado" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.5 (C:/Python27/python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -275,7 +262,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ostad/TornadoD3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="159" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="825" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="833" />
@@ -304,7 +291,7 @@
       <recent name="D:\Desktop\PycharmProjects\TornadoD3\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.news_handler">
+  <component name="RunManager" selected="Python.start (1)">
     <configuration default="false" name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,25 +306,6 @@
       <module name="Tornado" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../mohades/TornadoSamplePeewee/start.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="readXmlNews" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Tornado" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/readXmlNews.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -395,6 +363,25 @@
       <module name="Tornado" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Handlers/news_handler.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Tornado" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/urls.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -552,18 +539,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.start" />
-      <item index="1" class="java.lang.String" itemvalue="Python.readXmlNews" />
-      <item index="2" class="java.lang.String" itemvalue="Python.models" />
-      <item index="3" class="java.lang.String" itemvalue="Python.start (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.news_handler" />
+      <item index="1" class="java.lang.String" itemvalue="Python.models" />
+      <item index="2" class="java.lang.String" itemvalue="Python.start (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.news_handler" />
+      <item index="4" class="java.lang.String" itemvalue="Python.urls" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.news_handler" />
-        <item index="1" class="java.lang.String" itemvalue="Python.start (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.models" />
-        <item index="3" class="java.lang.String" itemvalue="Python.start" />
-        <item index="4" class="java.lang.String" itemvalue="Python.readXmlNews" />
+        <item index="0" class="java.lang.String" itemvalue="Python.start (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.urls" />
+        <item index="2" class="java.lang.String" itemvalue="Python.news_handler" />
+        <item index="3" class="java.lang.String" itemvalue="Python.models" />
+        <item index="4" class="java.lang.String" itemvalue="Python.start" />
       </list>
     </recent_temporary>
   </component>
@@ -616,29 +603,33 @@
       <created>1426070077409</created>
       <updated>1426070077409</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;Step-5&quot;">
+      <created>1426072670033</created>
+      <updated>1426072670033</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67064846" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3939394" sideWeight="0.67346936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4212121" sideWeight="0.65986395" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34013605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3265306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -688,26 +679,15 @@
     <MESSAGE value="&quot;Step-Second&quot;" />
     <MESSAGE value="&quot;Step-3&quot;" />
     <MESSAGE value="&quot;Step-4&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Step-4&quot;" />
+    <MESSAGE value="&quot;Step-5&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Step-5&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Handlers/news_handler.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/fonts/Koodak.otf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="5300" selection-end="5300" vertical-scroll-proportion="0.5151515" vertical-offset="0" max-vertical-offset="10268" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/PyMySQL-0.6.3-py2.7.egg/pymysql/connections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="830" column="21" selection-start="28670" selection-end="28676" vertical-scroll-proportion="0.0" vertical-offset="13634" max-vertical-offset="20162" />
@@ -718,6 +698,33 @@
         <state line="34" column="7" selection-start="0" selection-end="1324" vertical-scroll-proportion="-15.730769" vertical-offset="169" max-vertical-offset="697" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/category-new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="7" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Handlers/category__handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ostad/TornadoD3/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Handlers/index_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
@@ -725,95 +732,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541">
+        <state line="13" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="3" selection-start="663" selection-end="670" vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="765">
+        <state line="5" column="55" selection-start="145" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="765">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="663">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/category-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="32" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-6.423077" vertical-offset="649" max-vertical-offset="1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="34" selection-start="2689" selection-end="2689" vertical-scroll-proportion="-8.269231" vertical-offset="856" max-vertical-offset="1955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/category-new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="870" selection-end="870" vertical-scroll-proportion="-0.65384614" vertical-offset="357" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="7" selection-start="569" selection-end="569" vertical-scroll-proportion="-9.192307" vertical-offset="67" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="687" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="408">
-          <folding>
-            <element signature="e#30#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Handlers/category__handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="12" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="1003">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Handlers/news_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="18" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1105">
-          <folding>
-            <element signature="e#30#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news-new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="2057">
+        <state line="8" column="6" selection-start="230" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="697" selection-end="697" vertical-scroll-proportion="0.19354838" vertical-offset="229" max-vertical-offset="731">
+        <state line="12" column="43" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="731">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="103" selection-start="2160" selection-end="2160" vertical-scroll-proportion="0.0" vertical-offset="514" max-vertical-offset="1955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/news-new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="108" selection-start="2021" selection-end="2021" vertical-scroll-proportion="-5.730769" vertical-offset="616" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/category-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="32" selection-start="1760" selection-end="1760" vertical-scroll-proportion="0.0" vertical-offset="649" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="274" selection-end="274" vertical-scroll-proportion="0.16098484" vertical-offset="0" max-vertical-offset="528">
+          <folding>
+            <element signature="e#1#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
